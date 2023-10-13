@@ -1,0 +1,215 @@
+.divlogo {
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: -20px;
+    padding-right: -20px;
+    border-radius: 20px;
+    position: sticky;
+    top: 0;
+
+  }
+
+  .divnote {
+    text-align: center;
+    background-color: rgb(255, 215, 0, 0.6);
+    border-radius: 20px;
+    width: 100%;
+    margin: auto;
+    position: sticky;
+    top: 0;
+  }
+
+  .slide {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateX(0);
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slide.active {
+    transform: translateX(-100px);
+  }
+
+  .divtwo {
+    background-color: transparent;
+    border-radius: 20px;
+    width: 20%;
+    height: 500px;
+    margin-left: 5%;
+  }
+
+  .divtwo:hover {
+    transition: width 2s;
+    width: 30%;
+  }
+
+  .divclassic {
+    background-color: transparent;
+    border-radius: 20px;
+    width: 50%;
+    height: 25%;
+    margin-left: 27%;
+    margin-top: 30px;
+    box-shadow: 0px 0px 5px black;
+  }
+
+  .divclassic:hover {
+    object-fit: cover;
+    transition: transform 2s ease;
+    transform: scaleX(1.5);
+  }
+    .zoomclassic{
+    transform: scale(1.1); /* Initial scale */
+    transition: transform 2s ease; /* Add a smooth transition effect */
+    }
+
+  .divservices{
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
+    margin-top: 2%;
+  }
+
+  .divrestaurant {
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 20%;
+    height: 80%;
+    float: right;
+    margin-top: 0%;
+    margin-right: 5%;
+    box-shadow: 0px 0px 5px black;
+    padding-top: 1%;
+  }
+
+  .divrestaurant:hover {
+    object-fit: cover;
+    transition: transform 0.5s ease;
+    transform: scaleX(1.2);
+  }
+
+  .divaccommodation {
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 20%;
+    height: 80%;
+    float: left;
+    box-shadow: 0px 0px 5px black;
+    margin-top: 0%;
+    margin-left: 5%;
+    box-shadow: 0px 0px 5px black;
+    padding-top: 1%;
+  }
+
+  .divaccommodation:hover {
+    object-fit: cover;
+    transition: transform 0.5s ease;
+    transform: scaleX(1.2);
+  }
+
+  .divconference {
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 20%;
+    height: 80%;
+    margin-top: 0%;
+    margin-left: 40%;
+    box-shadow: 0px 0px 5px black;
+    padding-top: 0%;
+    
+  }
+  .divconference:hover {
+    object-fit: cover;
+    transition: transform 0.5s ease;
+    transform: scaleX(1.2);
+  }
+  
+  header {
+    text-align: right;
+    border-radius: 20px;
+    width: 100%;
+    margin: auto;
+    position: sticky;
+    top: 0;
+  }
+
+  #right-button {
+    background-color: gold;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  #right-btn {
+    background-color: gold;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  #right-CONT {
+    background-color: gold;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .img {
+    border-radius: 5%;
+  }
+
+  .bigimg {
+    margin-top: 0px;
+    height: 1%;
+    border-radius: 20px;
+  }
+
+  .quote {
+    height: 10%;
+    background-color: rgb(255, 215, 0, 0.6);
+    background-image: url('images/Screenshot 2023-10-10 125236.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .quote2 {
+    
+    background-color: rgb(255, 215, 0, 0.6);
+    background-image: url('images/Screenshot 2023-10-10 125609.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 200px;
+    
+  }
+  
+  footer{
+    height: 18.75em;
+    background-image: url('images/2021-02-24.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+  }
+  nav{
+    background-color: transparent;
+
+
+  }
+  nav ul li{
+    list-style-type: none;
+  }
+  .footer2{
+    background-color:gold;
+    height: 18.75em;
+    margin-top: 2em;
+  }
