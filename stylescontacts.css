@@ -1,0 +1,108 @@
+header{
+    text-align: right;
+}
+.divnote{
+text-align: center;
+background-color: transparent;
+border-radius: 20px;
+width: 100%;
+margin: auto;
+position: sticky;
+top: 0;
+}
+.divlogo{
+background-color: gold;
+width: 100px;
+height: 100px;
+margin: auto;
+margin-bottom: -20px;
+padding-right: -20px;
+border-radius: 20px;
+
+}
+
+#button-home {
+background-color: gold;
+color: black;
+padding: 10px 20px;
+border: none;
+cursor: pointer;
+}
+#button-home:hover{
+background-color: aqua;
+}
+
+#button-location {
+background-color: gold;
+color: black;
+padding: 10px 20px;
+border: none;
+cursor: pointer;
+}
+#button-location:hover{
+background-color: aqua;
+}
+
+
+#button-contact {
+background-color: gold;
+color: black;
+padding: 10px 20px;
+border: none;
+cursor: pointer;
+}
+#button-contact:hover{
+background-color: aqua;
+}
+
+
+
+.firstdiv{
+    background-color: gold;
+    margin-inline: 40%;
+    padding-right: 0%;
+    height: 50px;
+    border-radius: 20px;
+
+}
+.seconddiv{
+  background-color: burlywood;
+  width: 30%;
+  height: 300px;
+  margin-left: 150px;
+  margin-top: 40px;
+  border-radius: 20px;
+
+}
+.seconddiv:hover{
+  transition: width 2s;
+  width: 40%;
+  transform-origin: width 2s;
+}
+.thirddiv{
+  
+  text-decoration: solid;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 35%;
+  height: 250px;
+  width: 15%;
+  border-radius: 20px;
+  text-emphasis-color: rgb(224, 199, 57);
+  border-color: blue;
+}
+.img{
+  border-radius: 20px;
+}
+
+.thirddiv:hover { 
+ transition: width 2s;
+ width: 30%;
+}
+body{
+  background-image: url('images/2021-02-24.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+}
