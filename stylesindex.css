@@ -337,20 +337,20 @@ background-color: aqua;
   /*end of navigation*/
 
   /*FORMS*/
-form {
+.form {
   margin-top: 2% ;
   margin-right: 5%;
   width: 500px;
   padding: 20px;
 }
-textarea {
+.textarea {
   width: 100%;
   margin: 10px;
   padding: 15px;
   border-radius: 5px;
   border: 1px solid #ccc;
 }
-button {
+.button {
   background-color: #007bff;
   color: white;
   padding: 10px;
