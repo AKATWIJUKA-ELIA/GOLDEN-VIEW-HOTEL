@@ -97,15 +97,23 @@ body{
 }
 /*FORMS*/
 form {
-  margin-left: 10% ;
+  margin-top: -27% ;
+  margin-right: 5%;
   width: 500px;
   padding: 20px;
+  float: right;
 }
-
-input, textarea {
+input{
   width: 100%;
   margin-bottom: 10px;
-  padding: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+textarea {
+  width: 100%;
+  margin: 10px;
+  padding: 15px;
   border-radius: 5px;
   border: 1px solid #ccc;
 }
