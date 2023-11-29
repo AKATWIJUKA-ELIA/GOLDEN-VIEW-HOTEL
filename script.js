@@ -25,3 +25,40 @@ setInterval(nextSlide, 3000);
 
 // Initialize the slideshow by showing the first slide
 showSlide(0);
+
+//adding three button navigation
+//function myFunction() {
+  //  var x = document.getElementById("nav-div");
+    //if (x.className === "col-5") {
+      //x.className += " responsive";
+    //} else {
+      //x.className = "col-5";
+    //}
+  //}
+
+
+
+  //
+    // Function to update the class based on screen width
+    function updateClass() {
+        var myElement = document.getElementById("golden-col");
+  
+        // Check if the window width is less than or equal to 600px
+        if (window.innerWidth <= 600) {
+          // Add the class for narrow screens
+          myElement.classList.add("col-6");
+          // Remove the class for wide screens
+          myElement.classList.remove("col-4");
+        } else {
+          // Add the class for wide screens
+          myElement.classList.add("col-4");
+          // Remove the class for narrow screens
+          myElement.classList.remove("col-6");
+        }
+      }
+  
+      // Initial call to set the class based on the initial screen width
+      updateClass();
+  
+      // Add an event listener to handle window resize
+      window.addEventListener("resize", updateClass);

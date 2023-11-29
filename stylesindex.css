@@ -42,10 +42,10 @@ html{
 
   .divnote {
     text-align: center;
-    background-color: rgb(255, 215, 0, 0.9);
+    /*background-color: rgb(255, 215, 0, 0.9);
     background-image: url('images/Screenshot 2023-10-10 125318.png');
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: 100% auto;*/
     width: 100%;
     height: 150px;
     margin-left: 0%;
@@ -199,7 +199,7 @@ background-color: aqua;
     border-radius: 5%;
     --s: 250px;   /* the size of the image */
     --b: 8px;     /* the border thickness*/
-    --g: 14px;    /* the gap */
+    --g: 3px;    /* the gap */
     --c: #4ECDC4; /* the color */
     
     width: var(--s);
@@ -207,7 +207,7 @@ background-color: aqua;
     /*outline: calc(var(--s)/3.2) solid gold;*/
     outline-offset: calc(var(--s)/-2);
     cursor: pointer;
-    transition: .9s;
+    transition: .2s;
   }
   .img:hover{
     outline: var(--b) solid var(--c);
@@ -227,7 +227,7 @@ background-color: aqua;
     outline: calc(var(--s)/2) solid #0009;
     outline-offset: calc(var(--s)/-2);
     cursor: pointer;
-    transition: .3s;
+    transition: .2s;
   }
   .img2:hover{
     outline: var(--b) solid var(--c);
@@ -389,18 +389,61 @@ background-color: aqua;
   a{
     text-decoration: none;
   }
-  @media screen and (width: 350px) {
-    .h1{
+  #treebar{
+    display: none;
+    margin-top: 0%;
+    margin-left: 0%;
+  }
+  #small-screen{
+    display:none
+  }
+  
+  @media screen and (max-width: 600px) {
+
+    #small-screen{
+      display: contents;
+    }
+
+    #gallery{
+      display: none;
+    }
+    
+    #luxuryatyourservice-carousel{
       font-size: small;
     }
-    .col-5 {
-      display: none;
+    
+    *{
+      box-sizing: border-box;
+    }
+
+    body{
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+     }
+
+
+    #treebar{
+      display:contents;
+      margin-left:0% ;
 
     }
-    .col-4 {
-      font-size: small;
-      text-align: left;
+
+    #nav-div{
+      display: none;
+    }
+   #golden-col{
+    /*background-color: rgb(38, 60, 60);*/
+    margin-left: 25%;
+    margin-top: -100px;
 
     
+   }
+    #golden-H1,#LUXURY-H5{
+      margin-top: 10%;
+      font-size:x-large;
+      text-align: center;
+      
     }
+  
    }
