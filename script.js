@@ -62,3 +62,46 @@ showSlide(0);
   
       // Add an event listener to handle window resize
       window.addEventListener("resize", updateClass);
+
+
+
+
+
+
+    /*  let startX = null;
+
+document.querySelector('.slider').addEventListener('touchstart', function(event) {
+ startX = event.touches[0].clientX;
+});
+
+document.querySelector('.slider').addEventListener('touchmove', function(event) {
+ if (startX === null) return;
+ let currentX = event.touches[0].clientX;
+ let diffX = currentX - startX;
+ if (Math.abs(diffX) > 50) {
+    if (diffX > 0) {
+      slidePrev();
+    } else {
+      slideNext();
+    }
+    startX = null;
+ }
+});
+
+function slideNext() {
+ let activeSlide = document.querySelector('.slide.active');
+ let nextSlide = activeSlide.nextElementSibling;
+ if (nextSlide) {
+    activeSlide.classList.remove('active');
+    nextSlide.classList.add('active');
+ }
+}
+
+function slidePrev() {
+ let activeSlide = document.querySelector('.slide.active');
+ let prevSlide = activeSlide.previousElementSibling;
+ if (prevSlide) {
+    activeSlide.classList.remove('active');
+    prevSlide.classList.add('active');
+ }
+}
