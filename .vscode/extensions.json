@@ -1,5 +1,6 @@
 {
         "recommendations": [
-                "george-alisson.html-preview-vscode"
+                "george-alisson.html-preview-vscode",
+                "esbenp.prettier-vscode"
         ]
 }
